@@ -2,7 +2,6 @@ import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
-
 from functions import (
     impulse_response_continuous,
     impulse_response_discrete,
@@ -17,6 +16,7 @@ st.set_page_config(
     layout="wide",
 )
 st.title("Implication of parameters on discretization")
+st.write("https://github.com/AGBV/DigiSiV/tree/main/MA2")
 
 with st.sidebar:
     form = st.form("params")
